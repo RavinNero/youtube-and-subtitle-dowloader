@@ -1,0 +1,12 @@
+{
+  "name": "youtube-and-subtitle-dowloader",
+  "version": "1.0.0",
+  "description": "Youtube video and captions dowloader",
+  "main": "index.js",
+  "repository": "https://github.com/RavinNero/youtube-and-subtitle-dowloader.git",
+  "author": "Ravin Mor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
