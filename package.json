@@ -6,7 +6,14 @@
   "repository": "https://github.com/RavinNero/youtube-and-subtitle-dowloader.git",
   "author": "Ravin Mor",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon public/server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "nodemon": "^2.0.7",
+    "readline": "^1.3.0",
+    "ytdl-core": "^4.5.0"
   }
 }

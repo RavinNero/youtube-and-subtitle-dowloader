@@ -7,6 +7,8 @@ module.exports = {
         const { youtube_video_url, path_to_video, path_to_captions } = req.body;
 
         const videoDownload = await YoutubeVideoDownloaderService.downloadVideoFromYoutube(youtube_video_url);
+        const captionXmlDownload = await CaptionDowloaderService.downloadCaptionsFromYoutube(youtube_video_url);
+        // const captionXmlConvertedToSrt = await ConvertXmlToSrt.ConvertXmlToSrt(captionXmlDownload);
 
         return res.json({ message: "Ok" }).status(200);
     }

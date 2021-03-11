@@ -1,3 +1,10 @@
+const cp = require('child_process');
+const readline = require('readline');
+const fs = require('fs');
+const ytdl = require('ytdl-core');
+const ffmpeg = require('ffmpeg-static');
+
+const videoInfo = require("../Utils/getVideoInfo");
 const StringFunctions = require("../Utils/StringFunctions");
 
 module.exports = {
